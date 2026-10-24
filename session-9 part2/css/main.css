@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.racing {
+    background-color: rgb(32, 30, 30);
+    width: 70%;
+    height: 698px;
+    margin: 110px auto;
+}
+
+
+:root {
+    --width: 110px;
+    --height: 110px;
+    --border-radius: 100%;
+}
+
+.stop{
+    display: flex;
+    margin: 7px 5vw;
+    gap: 17px;
+}
+
+.red {
+    flex-wrap: wrap-reverse;
+    width: var(--width);
+    height: var(--height);
+    background-color: rgb(225, 4, 4);
+    opacity: 0.3;
+    border-radius: var(--border-radius);
+}
+
+.drive {
+    display: flex;
+    margin: 5px 5vw;
+    gap: 17px;
+}
+
+.green {
+    width: var(--width);
+    height: var(--height);
+    background-color: rgb(3, 98, 7);
+    opacity: 0.3;
+    border-radius: var(--border-radius);
+}
+
+.racing:hover .red {
+    opacity: 1;
+    transition: all 3s;
+}
+
+.racing:hover .green {
+    opacity: 1;
+    transition: all 10s;
+}
