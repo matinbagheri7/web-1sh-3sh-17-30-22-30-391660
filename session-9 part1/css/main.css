@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+}
+.box-1{
+    display: flex;
+  width: 60%;
+  height: 400px;
+  background-color: lightgray;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 200px auto;
+  box-shadow:  0px 0px 10px darkblue;
+}
+
+
+.box-2 {
+  flex: 1;
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+
+.box-3{
+ justify-content: end;
+  align-items: flex-end;
+    flex: 1;
+  display: flex;
+  padding: 8px
+}
+
+.box-4{
+  width: 60px;
+  height: 60px;
+  background: darkblue;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 92);
+}
